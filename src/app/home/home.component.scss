@@ -1,0 +1,19 @@
+@import "../../assets/scss/variables";
+
+header.header{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $headerBg;
+  padding: 10px;
+  color: $textColor
+}
+main{
+  width: calc(100% - 50px);
+  height: 600px;
+  overflow: scroll;
+  margin: auto;
+
+
+}
