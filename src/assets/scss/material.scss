@@ -1,0 +1,18 @@
+@import "variables";
+.mat-table {
+  background: $headerBg;
+  box-shadow: none;
+  width: 100%;
+
+  th,td{
+    color: white;
+  }
+
+
+
+
+
+}
+::ng-deep mat-form-field input {
+  color: #fff !important;
+}
